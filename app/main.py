@@ -64,7 +64,7 @@ def main():
             if not msg:
                 logger.error("No msg generated")
                 return
-                NotifyBot(content=msg, **config)
+            NotifyBot(content=msg, **config)
     else:
         bot = SmzdmBot(**conf_kwargs)
         tasks = SmzdmTasks(bot)

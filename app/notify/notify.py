@@ -8,6 +8,7 @@ from loguru import logger
 
 class NotifyBot(object):
     def __init__(self, content, title="什么值得买签到", **kwargs: Dict) -> None:
+        logger.info("发送签到通知")
         self.content = content
         self.title = title
         self.kwargs = kwargs
@@ -23,13 +24,12 @@ class NotifyBot(object):
             return
         PUSH_PLUS_TOKEN = self.kwargs.get("PUSH_PLUS_TOKEN")
          
-        PUSH_PLUS_TOPIC = self.kwargs.get("PUSH_PLUS_TOPIC")
+        # PUSH_PLUS_TOPIC = self.kwargs.get("PUSH_PLUS_TOPIC")
 
         url = "https://www.pushplus.plus/send"
         body = {
             "token": PUSH_PLUS_TOKEN,
             "title": self.title,
-            "topic": PUSH_PLUS_TOPIC,
             "content": self.content,
             "template": template,
         }
