@@ -1,0 +1,16 @@
+[user.wu]
+ANDROID_COOKIE = "z_me=;partner_name=smzdm_wap;sess=BB-1q4pehPkUlc6ilT56%2BIUunV1jrSmFudJegqiDCwPMz6%2F%2BHkExBO%2FDy9ufemCvFkE2B%2BKt%2BOgWgkjn8bXRPZ8qQ3ktPQ%3D;pid=kyUIHwGvefxnzaTXG5QAqs494HKLcdy98U487ryeRU1zbfQDpoHn1A%3D%3D;device_type=HUAWEIDCO-AL00;z_dr=3478df8f5dc2ec961014e5be5d7ac9f1;sessionID=1167ba81a219cdd438db9612f4293b7e.1704853185337;basic_v=0;login=1;client_id=1167ba81a219cdd438db9612f4293b7e.1703760839162;register_time=1445161931;network=1;device_system_version=12;partner_id=165;device_s=3478df8f5dc2ec961014e5be5d7ac9f1;smzdm_version=10.6.10;ab_test=c;device_smzdm=android;apk_partner_name=smzdm_wap;smzdm_id=3899803169;device_id=3478df8f5dc2ec961014e5be5d7ac9f1;device_push=1;apk_partner_id=165;session_id=1167ba81a219cdd438db9612f4293b7e.1704853185337;device_smzdm_version=10.6.10;device_rid=1167ba81a219cdd438db9612f4293b7e;active_time=1703760843;z_ai=;new_device_id=3478df8f5dc2ec961014e5be5d7ac9f1;is_new_user=0;last_article_info=;device_recfeed_setting=%7B%22haojia_recfeed_switch%22%3A%221%22%2C%22homepage_sort_switch%22%3A%221%22%2C%22other_recfeed_switch%22%3A%221%22%2C%22shequ_recfeed_switch%22%3A%221%22%7D;device_smzdm_version_code=930;"
+SK = "'5trQtUV79b35JLNCbWWJauGcZXtGSXrb8sWAoGk/4X9YhxIne7Yi5f3oKX/e5DOy"
+
+[user.zhu]
+ANDROID_COOKIE = "z_me=;partner_name=smzdm_wap;sess=BB-hAqXut%2BJhFWyHTzRndqw6hv4togLgj0fWN8pB%2Bq4Uqp7ydEJecN5Dee%2FR8%2FNJd5xdcuo%2FGTGoTAY6iASkZVTntpU5nE%3D;pid=kyUIHwGvefxnzaTXG5QAqs494HKLcdy98U487ryeRU1zbfQDpoHn1A%3D%3D;device_type=HUAWEIDCO-AL00;z_dr=3478df8f5dc2ec961014e5be5d7ac9f1;sessionID=1167ba81a219cdd438db9612f4293b7e.1704853185337;basic_v=0;login=1;client_id=1167ba81a219cdd438db9612f4293b7e.1703760839162;register_time=1697714420;network=1;device_system_version=12;partner_id=165;device_s=3478df8f5dc2ec961014e5be5d7ac9f1;smzdm_version=10.6.10;ab_test=c;device_smzdm=android;apk_partner_name=smzdm_wap;smzdm_id=9674022326;device_id=3478df8f5dc2ec961014e5be5d7ac9f1;device_push=1;apk_partner_id=165;session_id=1167ba81a219cdd438db9612f4293b7e.1704853185337;device_smzdm_version=10.6.10;device_rid=1167ba81a219cdd438db9612f4293b7e;active_time=1703760843;z_ai=;new_device_id=3478df8f5dc2ec961014e5be5d7ac9f1;is_new_user=0;last_article_info=;device_recfeed_setting=%7B%22haojia_recfeed_switch%22%3A%221%22%2C%22homepage_sort_switch%22%3A%221%22%2C%22other_recfeed_switch%22%3A%221%22%2C%22shequ_recfeed_switch%22%3A%221%22%7D;device_smzdm_version_code=930;"
+SK = "OcCgsZS8WfcUkukTTy4kueGcZXtGSXrb8sWAoGk/4X9YhxIne7Yi5f3oKX/e5DOy"
+
+[notify]
+PUSH_PLUS_TOKEN = "3571bbff1d214cceb20f10d3ce06e630"
+PUSH_PLUS_TOPIC = "wowguoqing_smzdm"
+SC_KEY = ""
+WECOM_BOT_WEBHOOK = ""
+TG_BOT_TOKEN = ""
+TG_USER_ID = ""
+TG_BOT_API = ""
