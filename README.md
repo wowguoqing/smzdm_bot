@@ -111,7 +111,7 @@ python main.py
 
 配置参考[2.2 从`config.toml`中读取](#22-从configtoml中读取)
 
-修改 [docker-compose.yaml](https://github.com/Chasing66/smzdm_bot/blob/main/docker-compose.yml), 将`app/config/config.toml`mout 到容器内`/smzdm_bot/config/config.toml`
+修改 [docker-compose.yaml](https://github.com/wowguoqing/smzdm_bot/blob/main/docker-compose.yml), 将`app/config/config.toml`mout 到容器内`/smzdm_bot/config/config.toml`
 
 ```yaml
 version: "3.9"
@@ -135,7 +135,7 @@ services:
 
 GitHub Action 仅支持`env`配置方式, **务必自行更改为随机时间**
 
-1. Fork[此仓库项目](https://github.com/Chasing66/smzdm_bot)>, 欢迎`star`~
+1. Fork[此仓库项目](https://github.com/wowguoqing/smzdm_bot)>, 欢迎`star`~
 2. 修改 `.github/workflows/checkin.yml`里的下面部分, 取消`schedule`两行的注释，自行设定时间
 
 ```yaml
