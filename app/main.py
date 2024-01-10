@@ -44,6 +44,7 @@ def main():
     msg = ""
     if conf_kwargs.get("toml_conf"):
         for user, config in conf_kwargs["user"].items():
+            msg = ""
             if config.get("Disable"):
                 logger.info(f"===== Skip task for user: {user} =====")
                 continue
@@ -58,11 +59,12 @@ def main():
                 msg += tasks.lottery()
             except Exception as e:
                 logger.error(e)
+                NotifyBot(content="签到失败", **config)
                 continue
-        if not msg:
-            logger.error("No msg generated")
-            return
-        NotifyBot(content=msg, **conf_kwargs["notify"])
+            if not msg:
+                logger.error("No msg generated")
+                return
+                NotifyBot(content=msg, **config)
     else:
         bot = SmzdmBot(**conf_kwargs)
         tasks = SmzdmTasks(bot)
@@ -71,10 +73,10 @@ def main():
         msg += tasks.all_reward()
         tasks.extra_reward()
         msg += tasks.lottery()
-        NotifyBot(content=msg, **conf_kwargs)
+        NotifyBot(content=msg, **config)
     if msg is None or "Fail to login in" in msg:
         logger.error("Fail the Github action job")
-        sys.exit(1)
+    sys.exit(1)
 
 
 if __name__ == "__main__":
