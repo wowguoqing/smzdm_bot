@@ -22,11 +22,14 @@ class NotifyBot(object):
             logger.warning("⚠️ PUSH_PLUS_TOKEN not set, skip PushPlus nofitication")
             return
         PUSH_PLUS_TOKEN = self.kwargs.get("PUSH_PLUS_TOKEN")
+         
+        PUSH_PLUS_TOPIC = self.kwargs.get("PUSH_PLUS_TOPIC")
 
         url = "https://www.pushplus.plus/send"
         body = {
             "token": PUSH_PLUS_TOKEN,
             "title": self.title,
+            "topic": PUSH_PLUS_TOPIC,
             "content": self.content,
             "template": template,
         }
