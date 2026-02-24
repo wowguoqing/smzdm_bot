@@ -7,7 +7,7 @@
     <img src="https://img.shields.io/docker/pulls/enwaiax/smzdm_bot">
 </p>
 
-## 更新日志
+## 更新日志  
 
 - 2022-12-08, 签到失败，浏览器端签到需要滑动验证码认证
 - 2023-01-11, 更改`User-Agent`为`iPhone`后可`bypass`滑块认证
